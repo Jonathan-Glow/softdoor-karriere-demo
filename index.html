@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karriere bei Softdoor — Offene Stellen</title>
+  <meta name="description" content="Werde Teil von Softdoor: Offene Stellen in Coaching, Sozialpädagogik, Psychologie und Verwaltung an über 120 Standorten in Deutschland.">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container">
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Über 120 Standorte in Deutschland</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> 18.000 Teilnehmer:innen pro Jahr</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Flexible Arbeitszeiten &amp; mobiles Arbeiten</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Regelmäßige Supervision</span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container">
+      <a class="nav-logo" href="https://softdoor.de/" title="Zur Softdoor Hauptseite">
+        <img src="assets/logo.webp" alt="Softdoor — Gesundheit. Beruf. Zukunft.">
+      </a>
+      <div class="nav-links">
+        <a href="https://softdoor.de/standorte">Standorte</a>
+        <a href="https://softdoor.de/unsere-angebote">Unsere Angebote</a>
+        <a class="active" href="index.html">Karriere</a>
+        <a href="https://softdoor.de/ueber-uns">Über uns</a>
+      </div>
+      <div class="nav-actions">
+        <a class="btn btn-navy" href="https://softdoor.de/kontakt">Kontakt</a>
+        <a class="btn btn-outline" href="#stellen">Offene Stellen</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero-circle c1"></div>
+    <div class="hero-circle c2"></div>
+    <div class="hero-circle c3"></div>
+    <div class="container hero-inner">
+      <span class="hero-badge">✦ Karriere bei Softdoor</span>
+      <h1>Hey, wir sind Softdoor.<br>Wachse <em>mit uns.</em></h1>
+      <p class="lead">Wir haben uns auf einzigartige Programme in den Bereichen Gesundheit und berufliche Entwicklung spezialisiert. Nach dem Aufbau von über 120 Standorten in ganz Deutschland möchten wir weiter wachsen — mit dir an unserer Seite!</p>
+      <div class="hero-proof">
+        <div class="hero-avatars">
+          <img src="assets/team1.webp" alt="">
+          <img src="assets/team2.webp" alt="">
+          <img src="assets/team4.jpg" alt="">
+        </div>
+        <div class="hero-proof-text">
+          <strong>30.000+ zufriedene Teilnehmer:innen</strong>
+          <span class="stars">★★★★★</span> <span>4,6 von 5 Sternen</span>
+        </div>
+      </div>
+      <div class="hero-photos">
+        <div class="polaroid"><img src="assets/team2.webp" alt="Coaching-Gespräch bei Softdoor"></div>
+        <div class="polaroid"><img src="assets/team1.webp" alt="Arbeiten bei Softdoor"></div>
+        <div class="polaroid"><img src="assets/team4.jpg" alt="Softdoor Teammitglied"></div>
+        <div class="polaroid"><img src="assets/team3.webp" alt="Softdoor Team"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Filter -->
+  <div class="container filterwrap" id="stellen">
+    <div class="filterbar">
+      <div class="field is-text">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="search" id="f-search" placeholder="Jobtitel oder Stichwort suchen …">
+      </div>
+      <div class="field">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <select id="f-city"><option value="">Alle Standorte</option></select>
+      </div>
+      <div class="field">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+        <select id="f-dept"><option value="">Alle Bereiche</option></select>
+      </div>
+      <div class="field">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <select id="f-type"><option value="">Alle Anstellungsarten</option></select>
+      </div>
+    </div>
+  </div>
+
+  <!-- Stellenliste -->
+  <main class="jobs-section">
+    <div class="container">
+      <div class="jobs-head">
+        <h2>Offene Stellen</h2>
+        <span class="jobs-count"><strong id="job-count">0</strong> Positionen — auf der Suche nach einer neuen Herausforderung?</span>
+      </div>
+      <div id="job-groups"></div>
+      <div class="jobs-empty" id="jobs-empty" style="display:none">
+        <strong>Keine passende Stelle gefunden</strong>
+        Versuche es mit anderen Filtern — oder schick uns eine Initiativbewerbung.
+      </div>
+    </div>
+  </main>
+
+  <!-- Warum Softdoor -->
+  <section class="benefits">
+    <div class="container">
+      <div class="benefits-art reveal">
+        <img src="assets/illu-coaching.png" alt="Coaching bei Softdoor — Illustration">
+        <div class="float-badge">
+          <span class="num">120+</span>
+          <span class="lbl">Standorte in<br>ganz Deutschland</span>
+        </div>
+      </div>
+      <div class="reveal">
+        <span class="kicker">Erlebe den Softdoor-Unterschied</span>
+        <h2>Arbeit mit Sinn — in einem Team, das dich trägt</h2>
+        <p>Bei Softdoor arbeitest du in einem engagierten, vielfältigen Team, das Menschen in Gesundheit und Karriere nachhaltig stärkt. Diversität, Inklusion und Zugehörigkeit sind Teil unserer DNA.</p>
+        <ul class="check-list">
+          <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Flexible Arbeitszeiten und mobiles Arbeiten</li>
+          <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Regelmäßige Supervision und kollegialer Austausch</li>
+          <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Raum für Eigenverantwortung und Mitgestaltung</li>
+          <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Eine Tätigkeit mit gesellschaftlicher Relevanz und spürbarem Impact</li>
+          <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span> Attraktive Vergütung und fachliche Weiterentwicklung</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Zahlen -->
+  <section class="stats">
+    <div class="container">
+      <div class="stat reveal"><div class="num">120+</div><div class="lbl">Standorte deutschlandweit</div></div>
+      <div class="stat reveal"><div class="num">18.000</div><div class="lbl">Teilnehmer:innen pro Jahr</div></div>
+      <div class="stat reveal"><div class="num">30.000+</div><div class="lbl">zufriedene Teilnehmer:innen</div></div>
+      <div class="stat reveal"><div class="num">4,6 ★</div><div class="lbl">durchschnittliche Bewertung</div></div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-band">
+    <div class="container">
+      <div class="cta-card reveal">
+        <div class="hero-circle c1"></div>
+        <div class="hero-circle c2"></div>
+        <h2>Bereit, die Ärmel hochzukrempeln?</h2>
+        <p>Nichts Passendes dabei? Wir freuen uns immer über engagierte Menschen, die unsere Vision teilen. Schick uns einfach eine Initiativbewerbung.</p>
+        <a class="btn btn-light btn-lg" href="stelle.html?id=coach-kiel">Jetzt initiativ bewerben</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-logo">
+          <img src="assets/logo-white.webp" alt="Softdoor">
+          <p>Die vertrauenswürdigen Programme für berufliche Gesundheit, Sicherheit und mehr Lebensqualität.</p>
+        </div>
+        <div>
+          <h4>Unsere Angebote</h4>
+          <ul>
+            <li><a href="https://softdoor.de/gesundheit">Gesundheit</a></li>
+            <li><a href="https://softdoor.de/beruf-karriere">Beruf &amp; Karriere</a></li>
+            <li><a href="https://softdoor.de/weiterbildung">Weiterbildung</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Über uns</h4>
+          <ul>
+            <li><a href="https://softdoor.de/ueber-uns">Wer wir sind</a></li>
+            <li><a href="index.html">Karriere</a></li>
+            <li><a href="https://softdoor.de/standorte">Standorte</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Kontakt</h4>
+          <ul>
+            <li><a href="mailto:info@softdoor.de">info@softdoor.de</a></li>
+            <li><a href="https://softdoor.de/kontakt">Kontaktformular</a></li>
+            <li><a href="https://softdoor.de/impressum">Impressum</a></li>
+            <li><a href="https://softdoor.de/datenschutz">Datenschutz</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Softdoor GmbH. Alle Rechte vorbehalten.</span>
+        <span class="powered"><span class="spark">✦</span> powered by glow careers</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="jobs.js"></script>
+  <script>
+    /* ---- Filter befüllen ---- */
+    const els = {
+      search: document.getElementById("f-search"),
+      city: document.getElementById("f-city"),
+      dept: document.getElementById("f-dept"),
+      type: document.getElementById("f-type"),
+      groups: document.getElementById("job-groups"),
+      count: document.getElementById("job-count"),
+      empty: document.getElementById("jobs-empty")
+    };
+
+    [...new Set(JOBS.map(j => j.city))].sort().forEach(c => els.city.add(new Option(c, c)));
+    DEPT_ORDER.forEach(d => els.dept.add(new Option(d, d)));
+    [...new Set(JOBS.map(j => j.type))].sort().forEach(t => els.type.add(new Option(t, t)));
+
+    const PIN = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>';
+    const CLOCK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>';
+    const ARROW = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>';
+
+    function matches(job) {
+      const q = els.search.value.trim().toLowerCase();
+      if (q && !(job.title + " " + job.city + " " + job.dept).toLowerCase().includes(q)) return false;
+      if (els.city.value && job.city !== els.city.value) return false;
+      if (els.dept.value && job.dept !== els.dept.value) return false;
+      if (els.type.value && job.type !== els.type.value) return false;
+      return true;
+    }
+
+    function render() {
+      const visible = JOBS.filter(matches);
+      els.count.textContent = visible.length;
+      els.empty.style.display = visible.length ? "none" : "block";
+      els.groups.innerHTML = DEPT_ORDER.map(dept => {
+        const jobs = visible.filter(j => j.dept === dept);
+        if (!jobs.length) return "";
+        return `
+          <div class="dept-group">
+            <div class="dept-title">${dept} <span class="pill">${jobs.length} ${jobs.length === 1 ? "Position" : "Positionen"}</span></div>
+            <div class="job-list">
+              ${jobs.map((j, i) => `
+                <a class="job-card" href="stelle.html?id=${j.id}" style="animation-delay:${Math.min(i * 60, 360)}ms">
+                  <span class="job-card-icon">${DEPT_ICONS[j.dept]}</span>
+                  <span class="job-card-body">
+                    <h3>${j.title}</h3>
+                    <span class="job-meta">
+                      <span>${PIN} ${j.city}</span>
+                      <span>${CLOCK} ${j.schedule}</span>
+                    </span>
+                  </span>
+                  <span class="job-card-cta">
+                    <span class="tag ${j.type === "Freelancing" ? "freelance" : ""}">${j.type}</span>
+                    <span class="job-arrow">${ARROW}</span>
+                  </span>
+                </a>`).join("")}
+            </div>
+          </div>`;
+      }).join("");
+    }
+
+    ["input", "change"].forEach(ev => {
+      els.search.addEventListener(ev, render);
+      [els.city, els.dept, els.type].forEach(s => s.addEventListener(ev, render));
+    });
+    render();
+
+    /* ---- Scroll-Reveal ---- */
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } });
+    }, { threshold: 0.15 });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+</body>
+</html>
