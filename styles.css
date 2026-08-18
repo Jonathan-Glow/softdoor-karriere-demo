@@ -428,6 +428,8 @@ button { font-family: inherit; cursor: pointer; }
 .footer ul { list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 14px; }
 .footer ul a { color: var(--accent); transition: color .2s; }
 .footer ul a:hover { color: #fff; }
+.footer-bottom a { color: var(--accent); transition: color .2s; }
+.footer-bottom a:hover { color: #fff; }
 .footer-bottom {
   border-top: 1px solid rgba(255,255,255,.12);
   padding: 18px 0;
